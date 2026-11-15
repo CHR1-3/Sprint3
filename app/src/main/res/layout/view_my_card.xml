@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:background="#1E1E1E"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txtCardTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityHeading="true"
+        android:text="@string/titulo_velada"
+        android:textColor="#E5B83B"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtCardSubtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="12dp"
+        android:text="no se que poner"
+        android:textColor="#B0B0B0"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/imgCard"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="Imagen ilustrativa del combate"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_velada"/>
+
+    <TextView
+        android:id="@+id/txtCardDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="descripcion supongo."
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCardAccion"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/boton_velada"
+        android:text="Acción"
+        android:textAllCaps="false"
+        android:textColor="@color/gold"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Sprint3Velada</string>
+
+    <string name="desc_fondo_velada">Cartel de fondo de La Velada del Año 2027</string>
+    <string name="titulo_velada">LA VELADA DEL AÑO VII</string>
+    <string name="subtitulo_velada">Próximamente en 2027 • El mayor evento de boxeo y entretenimiento</string>
+    <string name="btn_mas_info">Más información</string>
+    <string name="btn_ver_combates">Ver combates</string>
+    <string name="toast_no_implementado">Todavía no está implementado</string>
+    <string name="titulo_cartelera">Cartelera de Combates</string>
 </resources>
